@@ -1,0 +1,20 @@
+/*
+Theme Name: Distant One Designs
+Author: Rene D Perez
+Author URI: https://distantonedesigns.com/
+Description: My First Theme
+Tags: website
+Version: 1.0.0
+Text Domain: Distant-One-Designs
+load_theme_textdomain(Distant-One-Designs);
+*/
+
+body {
+  /* background: #1e90ff; */
+  background-image: url('myFirstTheme.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  
+}

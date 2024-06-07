@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;300;400;700;900&display=swap");
+
+:root {
+  --primary-color: #151642;
+  --gray-color: #bcbcbc;
+  --secondary-color: #d3d3d3;
+  --greyish-color: #f4f4f4;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --dodger-color: #1e90ff;
+  --highlight-color: #53d9ed;
+  --green-color: #00d800;
+  --accent-color: #ff3700;
+}
+
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--scroll-padding, 45px);
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  margin-bottom: 2rem;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--white);
+}
+
+i {
+  color: var(--white);
+}
+
+.button, button {
+  border: none;
+  outline-color: transparent;
+}
+
+
+.button, button {
+  font-size: 1rem;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  padding: 0.5rem 2rem;
+  margin-top: 2rem;
+  border-radius: 2px;
+  outline-color: transparent;
+}
+
+.button:hover, button:hover {
+  cursor: pointer;
+  color: var(--white);
+  border: 2px solid #ff8f70;
+  box-shadow: 0 0 10px var(--accent-color);
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+h1, h2, h3, h4 {
+  margin-bottom: 2rem;
+  margin: 0;
+}
+
+.not__found {
+  background-color: var(--black-color);
+  height: 100vh;
+}
+
+.not__found .not__found-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.not__found .not__found-content h1 {
+  font-size: 50px;
+  color: var(--white-color);
+}
+
+.not__found .not__found-content p {
+  font-size: 34px;
+  width: 950px;
+  color: var(--accent-color);
+}
+
+.not__found .not__found-content img {
+  width: 100px;
+}
