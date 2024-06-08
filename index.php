@@ -41,10 +41,11 @@
         <section class="main_container" id="main_con" >
           <div class="content_two" >
             <div class="left">
-              <h1>Optimize Your Online Presence with Expert <span>Shopify & Email Services</span></h1>
-              <h3>Crafting Your Digital Success</h3>
+              <small>WELCOME TO</small>
+              <h1>[<span> RDPK</span> VICE ]</h1>
+              <h3>CONGRADULATIONS, YOU'RE LOST!</h3>
               <div class="btn-overlay"></div>
-              <a class="button" href="#works" type="button">How It Works</a>
+              <a class="button" href="#works" type="button">LISTEN NOW</a>
             </div>
           </div>
         </section>

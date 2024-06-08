@@ -22,6 +22,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.js"></script>
   <script src="<?php echo get_bloginfo('template_directory'); ?>/js/main.js"></script>
-  <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=UZb3Ns"></script>
+  <!-- <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=UZb3Ns"></script> -->
 </body>
 </html>
