@@ -153,36 +153,34 @@
 
             <div id="jm" class="podcast_content">
               <div class="podcast_content-left">
-                  <img src="https://i.ibb.co/mGLrrh6/jocelyn.jpg" alt="woman1-Opt" border="0">
+                  <img src="https://placehold.co/1200x1200" alt="woman1-Opt" border="0">
               </div>
               <div class="podcast_content-right">
-                  <h2>Jocelyn M.</h2>
-                  <h3>CEO | Curvee Brows</h3>
-                  <p><i class="fa-solid fa-quote-left"></i> I highly recommend René to anyone looking for top-notch development services. He is the best in the business! <i class="fa-solid fa-quote-right"></i></p>
+                  <small>Kenny Bass</small>
+                  <h2>PDCST - MixCloud</h2>
+                  
               </div>
               <div class="divider"></div>
             </div>
   
             <div id="doorways" class="podcast_content">
               <div class="podcast_content-left">
-                  <img src="https://i.ibb.co/crNS7LX/jessica-hale.jpg" alt="Jessica-Hale" border="0">
+                  <img src="https://placehold.co/1200x1200" alt="Jessica-Hale" border="0">
               </div>
               <div class="podcast_content-right">
-                  <h2>Jessica Hale</h2>
-                  <h3>Comms. Manager | The Doorways</h3>
-                  <p><i class="fa-solid fa-quote-left"></i> René goes to great lengths to understand your company’s values & audiences to ensure the content created will be well received. <i class="fa-solid fa-quote-right"></i></p>
+                  <small>Sonja Lust</small>
+                  <h2>PDCST - MixCloud</h2>
               </div>
               <div class="divider"></div>
             </div>
 
             <div id="propipeteks" class="podcast_content">
               <div class="podcast_content-left">
-                  <img src="https://i.ibb.co/pn98v9Y/pro-pipe.jpg" alt="Pro Pipe Teks Inc logo" border="0">
+                  <img src="https://placehold.co/1200x1200" alt="Pro Pipe Teks Inc logo" border="0">
               </div>
               <div class="podcast_content-right">
-                  <h2>Jan V.</h2>
-                  <h3>CEO | ProPipeTeks, Inc.</h3>
-                  <p><i class="fa-solid fa-quote-left"></i> This was my best business experience ever. I believe there are people who really knows their stuff. René is one of them! <i class="fa-solid fa-quote-right"></i></p>
+                  <small>Moris Play</small>
+                  <h2>PD - SoundCloud</h2>
               </div>
               <div class="divider"></div>
             </div>
@@ -192,23 +190,52 @@
         <section class="portfolio" id='portfolio'>
               <div class="portfolio__content">
                 <div class="portfolio__content-project">
-                  <img src="https://placehold.co/428x510" alt="placehold">
+                  <img src="https://placehold.co/1000x500" alt="placehold">
                 </div>
                 <div class="portfolio__content-project">
-                  <img src="https://placehold.co/428x510" alt="placehold">
+                  <img src="https://placehold.co/1000x500" alt="placehold">
+                </div>
+                <!-- <div class="portfolio__content-project">
+                  <img src="https://placehold.co/1200x800" alt="placehold">
                 </div>
                 <div class="portfolio__content-project">
-                  <img src="https://placehold.co/428x510" alt="placehold">
-                </div>
-                <div class="portfolio__content-project">
-                  <img src="https://placehold.co/428x510" alt="placehold">
-                </div>
+                  <img src="https://placehold.co/1200x800" alt="placehold">
+                </div> -->
               </div>
         </section>
 
         <section class="form" id='form'>
               <div class="form__content">
-                <h1>Form Section</h1>
+                <div class="form__content-left">
+                  <h2>[ CONTACTS ]</h2>
+                  <div class="form__content-info">
+                    <img src="https://placehold.co/50x50" alt="">
+                    <h4>Email</h4>
+                    <small>info@gmail.com</small>
+                  </div>
+                  <div class="form__content-info">
+                    <img src="https://placehold.co/50x50" alt="">
+                    <h4>Mobile</h4>
+                    <small>555-555-5555</small>
+                  </div>
+                  <div class="form__content-info">
+                    <img src="https://placehold.co/50x50" alt="">
+                    <h4>YouTube</h4>
+                    <small>@myprofile</small>
+                  </div>
+                </div>
+                <div class="form__content-right">
+                  <form class="form__content-inner">
+                    <label for="name">Your Name (required)</label>
+                    <input type="text">
+                    <label for="email">Your Email (required)</label>
+                    <input type="email">
+                    <label for="text">Subject</label>
+                    <input type="text">
+                    <label for="text">Your Message</label>
+                    <textarea name="" id="" cols="30" rows="12" resize="none" ></textarea>
+                  </form>
+                </div>
               </div>
         </section>
     </main>
