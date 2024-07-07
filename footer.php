@@ -1,7 +1,7 @@
 <footer class="footer_container">
     <div class="footer_content">
       <div class="footer_box_left">
-        <p>Copyright&copy; Vice is the ultimate underground music WordPress Theme.  2024 <a href="#">Buy Vice</a> </p>
+        <p>Copyright&copy; Vice is the ultimate underground music WordPress Theme. <a href="#">Buy Vice</a> </p>
       </div>
       <!-- <div class="footer_box_right">
         <a href="https://www.instagram.com/distantonedesigns/" target="_blank"  aria-label="Instagram icon">
@@ -15,7 +15,30 @@
       </a>
       </div> -->
     </div>
+
+    <div class="player" id="player">
+                <div class="player-content">
+                <img class="cover" src="https://placehold.co/50x50" alt="">
+                  <div class="player-content__info">
+                    <img  src="https://placehold.co/50x50" alt="">
+                    <div class="player-content__info-inner">
+                    <p>Artist Name</p>
+                    <small>sub-header</small>
+                    </div>
+                 
+                  </div>
+                  <div class="player-content__icons">
+                      <img style="border-radius: 50px;" src="https://placehold.co/50x50" alt="">
+                      <img style="border-radius: 50px;" src="https://placehold.co/50x50" alt="">
+                      <img style="border-radius: 50px;" src="https://placehold.co/50x50" alt="">
+                      <img style="border-radius: 50px;" src="https://placehold.co/50x50" alt="">
+                      <img style="border-radius: 50px;" src="https://placehold.co/50x50" alt="">
+                  </div>
+                </div>
+        </div>
+    
   </footer>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/CustomEase.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
