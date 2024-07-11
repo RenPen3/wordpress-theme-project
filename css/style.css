@@ -636,9 +636,7 @@ h1, h2, h3, h4 {
 .form__content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: min(90%, 1200px);
-  border: 2px solid purple;
 }
 
 .form__content-left {
@@ -646,17 +644,28 @@ h1, h2, h3, h4 {
 }
 
 .form__content-left .form__content-info {
-  display: inline-block;
-  border: 2px solid lime;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  line-height: 1em;
+  padding: 2em 0;
 }
 
 .form__content-right {
   width: 50%;
   background: #000000;
-  border: 2px solid deeppink;
 }
 
-textarea {
+.form__content-right label {
+  margin-bottom: 0.5em;
+}
+
+.form__content-right input {
+  padding: 1em;
+  margin-bottom: 0.5em;
+}
+
+.form__content-right textarea {
   resize: none;
 }
 
@@ -664,9 +673,8 @@ textarea {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 600px;
+  gap: 0.5em;
   padding: 2em;
-  border: 2px solid dodgerblue;
 }
 
 .portfolio {

@@ -210,18 +210,27 @@
                   <h2>[ CONTACTS ]</h2>
                   <div class="form__content-info">
                     <img src="https://placehold.co/50x50" alt="">
+                    <div>
                     <h4>Email</h4>
                     <small>info@gmail.com</small>
+                    </div>
+                   
                   </div>
                   <div class="form__content-info">
                     <img src="https://placehold.co/50x50" alt="">
+                    <div>
                     <h4>Mobile</h4>
                     <small>555-555-5555</small>
+                    </div>
+                    
                   </div>
                   <div class="form__content-info">
                     <img src="https://placehold.co/50x50" alt="">
-                    <h4>YouTube</h4>
-                    <small>@myprofile</small>
+                    <div>
+                      <h4>YouTube</h4>
+                      <small>@myprofile</small>
+
+                    </div>
                   </div>
                 </div>
                 <div class="form__content-right">
