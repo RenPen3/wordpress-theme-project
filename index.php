@@ -101,14 +101,38 @@
                       <p>BERGHAIN — BERLIN, GERMANY</p>
                       <h2>TECHNO COMBUSTION</h2>
                       <small>DAN AKROID, JEFF MILLS, ADAM BEYER</small>
-
-
                       </div>
-
                       <div class="">
                         <button>Details</button>
                       </div>
-                     
+                    </div>
+                    <div class="events__inner-card">
+                      <div class="events__inner-date">
+                        <h3>30</h3>
+                        <p>Nov 2024</p>
+                      </div>
+                      <div class="events__inner-info">
+                      <p>BERGHAIN — BERLIN, GERMANY</p>
+                      <h2>TECHNO COMBUSTION</h2>
+                      <small>DAN AKROID, JEFF MILLS, ADAM BEYER</small>
+                      </div>
+                      <div class="">
+                        <button>Details</button>
+                      </div>
+                    </div>
+                    <div class="events__inner-card">
+                      <div class="events__inner-date">
+                        <h3>30</h3>
+                        <p>Nov 2024</p>
+                      </div>
+                      <div class="events__inner-info">
+                      <p>BERGHAIN — BERLIN, GERMANY</p>
+                      <h2>TECHNO COMBUSTION</h2>
+                      <small>DAN AKROID, JEFF MILLS, ADAM BEYER</small>
+                      </div>
+                      <div class="">
+                        <button>Details</button>
+                      </div>
                     </div>
               </div>
             <a href="#" class="btn"> button</a>
@@ -206,30 +230,30 @@
               <div class="form__content">
                 <div class="form__content-left">
                   <h2>[ CONTACTS ]</h2>
+                <div class="form__content-left__inner">
                   <div class="form__content-info">
                     <img src="https://placehold.co/50x50" alt="">
                     <div>
                     <h4>Email</h4>
-                    <small>info@gmail.com</small>
+                    <small>info@rppage.com</small>
                     </div>
-                   
                   </div>
                   <div class="form__content-info">
-                    <img src="https://placehold.co/50x50" alt="">
-                    <div>
-                    <h4>Mobile</h4>
-                    <small>555-555-5555</small>
+                      <img src="https://placehold.co/50x50" alt="">
+                      <div>
+                      <h4>Mobile</h4>
+                      <small>+55 555 1234</small>
+                      </div>
                     </div>
+                    <div class="form__content-info">
+                      <img src="https://placehold.co/50x50" alt="">
+                      <div>
+                        <h4>YouTube</h4>
+                        <small>@myprofile</small>
+                      </div>
+                    </div>
+                </div>
                     
-                  </div>
-                  <div class="form__content-info">
-                    <img src="https://placehold.co/50x50" alt="">
-                    <div>
-                      <h4>YouTube</h4>
-                      <small>@myprofile</small>
-
-                    </div>
-                  </div>
                 </div>
                 <div class="form__content-right">
                   <form class="form__content-inner">

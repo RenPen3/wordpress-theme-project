@@ -62,7 +62,7 @@ img {
 
 .button, button {
   position: relative;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #FAFAFA;
   background: #D5003C;
@@ -448,10 +448,10 @@ h1, h2, h3, h4 {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 3em;
   margin-inline: auto;
-  height: 100vh;
   padding: 3em 1em 6em 1em;
   color: #000000;
   background: #D5003C;
@@ -459,6 +459,10 @@ h1, h2, h3, h4 {
 
 
   &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3em;
     margin-inline: auto;
     width: min(90%, 1200px);
     border-radius: 4px;
@@ -477,7 +481,8 @@ h1, h2, h3, h4 {
   }
 
   & h2 {
-    font-size: 3.3em;
+    font-size: 2.875em;
+    font-weight: 400;
     text-align: center;
     color: var(--white-color);
     line-height: 56px;
@@ -498,9 +503,10 @@ h1, h2, h3, h4 {
     justify-content: space-between;
     align-items: center;
     gap: 1em;
-    width: 100%;
+    // width: 100%;
     height: 100%;
-    padding: 2.5em;
+    padding: 3em;
+    // margin: 2em 0;
     background: #EDEDED;
     // border: 2px solid deeppink;
 
@@ -533,7 +539,6 @@ h1, h2, h3, h4 {
 
 
   .events__inner-info {
-    line-height: 24px;
     width: 100%;
     padding-left: 2em;
     border-left: 2px dotted lightgrey;
@@ -595,6 +600,11 @@ h1, h2, h3, h4 {
   margin-bottom: 6em;
   // z-index: 5;
   // border: 2px solid red;
+}
+
+.podcast_title h2 {
+  font-size: 2.875em;
+  font-weight: 400;
 }
 
 .podcast_title h4 {
@@ -709,36 +719,60 @@ h1, h2, h3, h4 {
 }
 
 .form__content-left {
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3em;
+  width: 60%;
+}
+
+.form__content-left h2 {
+  font-size: 2.875em;
+  font-weight: 400;
+}
+
+.form__content-left__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
 }
 
 .form__content-left .form__content-info {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: .5em;
+  gap: 1em;
   line-height: 1em;
   padding: 2em 0;
   // border: 2px solid lime;
 }
 
+.form__content-left .form__content-info small {
+  font-size: 1em;
+}
+
 .form__content-right {
-  width: 50%;
+  width: 40%;
   background: #000000;
   // border: 2px solid deeppink;
 }
-
 .form__content-right label {
-  margin-bottom: .5em;
+  font-size: .8em;
 }
 
 .form__content-right input {
-  padding: 1em;
+  padding: .7em;
   margin-bottom: .5em;
-
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
 }
 
 .form__content-right textarea {
   resize: none;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
 }
 
 .form__content-inner {
