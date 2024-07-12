@@ -92,11 +92,10 @@
               <h2>[ EVENTS]</h2>
             </div>
               <div class="events__content">
-                <div class="events__inner">
                     <div class="events__inner-card">
                       <div class="events__inner-date">
                         <h3>30</h3>
-                        <h2>Nov 2024</h2>
+                        <p>Nov 2024</p>
                       </div>
                       <div class="events__inner-info">
                       <p>BERGHAIN — BERLIN, GERMANY</p>
@@ -111,7 +110,6 @@
                       </div>
                      
                     </div>
-                </div>
               </div>
             <a href="#" class="btn"> button</a>
 
